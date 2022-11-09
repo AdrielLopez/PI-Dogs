@@ -1,0 +1,67 @@
+.formcreate{
+  width: 25vw;
+  height: 92vh;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(242, 232, 232);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.formcreate label{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputdiv{
+  
+  margin: 10px;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.error{
+  color: #cc0033;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.ul {
+  
+  width: 50%;
+  margin-left: 117px;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+}
+.ul li{
+  background-color: #ccc;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+
+.ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.btnCreate{
+  background: none;
+  border-color: black;
+  color:rgb(91, 84, 84);
+  border: 2px solid;
+  padding: 0.7em 1.7em;
+  font-size: 1em;
+  transition: all 0.25s;
+}
+
+.btnCreate:hover{
+  border-color: black;
+  color:rgb(0, 0, 0);
+  box-shadow: 0 0.5em 0.5em -0.4em #000000;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}

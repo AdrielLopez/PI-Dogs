@@ -1,0 +1,30 @@
+.paginado{
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 4vh;
+}
+.paginado li{
+  display: inline;
+  
+}
+.paginado li.hover{
+  background-color: antiquewhite;
+}
+
+
+.paginado a {
+  background-color: #edede9;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.paginado a:hover:not(:focus) {background-color: #ddd;}
+
+.paginado li a:focus,
+.paginado li a:active {
+  background-color: #d4a373;
+  color: white;
+}

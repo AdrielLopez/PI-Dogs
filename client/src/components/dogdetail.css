@@ -1,0 +1,22 @@
+.loader{
+  width:800px;
+  height: 500px;
+  position: relative;
+  margin-left: 1px;
+  align-items: center;
+  justify-content:center;
+}
+.detaildiv{
+  background-color: rgba(124, 121, 119, 0.642);
+  margin-top: 2em;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+
+ }
+
+ .detailspan{
+  font-size: 1.3em;
+  font-family: 'Verdana', sans-serif;
+ }
